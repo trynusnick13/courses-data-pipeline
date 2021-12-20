@@ -1,0 +1,30 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "stepik",
+  "expectations": [
+    {
+      "expectation_type": "expect_table_column_count_to_equal",
+      "kwargs": {
+        "value": 8
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "authors"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "title"
+      }
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "title"
+      }
+    }
+  ]
+}

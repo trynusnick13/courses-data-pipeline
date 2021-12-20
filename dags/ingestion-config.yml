@@ -1,0 +1,6 @@
+destination_dataset: courses_airflow
+desination_stepik_table: stepik_courses
+ingestion_image: gcr.io/central-bulwark-334112/stepik:manual3
+gcs_to_postgres_image: gcr.io/central-bulwark-334112/gcs-to-postgresql:manual1
+great_expectations_image: gcr.io/central-bulwark-334112/great-expectations-stepic:manual2
+bucket: courses_ingestion
